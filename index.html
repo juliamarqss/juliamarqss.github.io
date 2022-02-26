@@ -10,29 +10,49 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shrikhand&display=swap"
+    rel="stylesheet">
   <title>Portfólio - Júlia Marques</title>
   <style>
-    
+
     body {
-      font-family:Montserrat, sans-serif;
+      font-family: Montserrat, sans-serif;
     }
-    p, li, h4{
+    p, li, h4 {
       color: #475550;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 30px;
     }
-    h3{
+    h3 {
       color: #2BC9FC;
+      font-family:Shrikhand;
+      font-weight: 500;
+      font-size: 20px;
     }
-    .picture{
+    .picture {
       border-radius: 30% 8% 30% 8%;
     }
-    .intro{
+    .intro {
       color: #278EB0;
-        }
-    .intro2{
+      font-family:Shrikhand;
+    }
+    .intro2 {
       color: #FFF994;
-        }
+      font-family:Shrikhand;
+    }
+    .background-yellow{
+      background-color:#FFF38F;
+      border-radius: 30px;
+      text-decoration: none; /*Não está saindo a linha do link*/
+    }
+    .background-grey{
+      background-color:#f3f3f5d5;
+      border-radius: 30px;
+      text-decoration: none; /*Não está saindo a linha do link*/
+    }
 
     /*Exemplos da aula abaixo*/
     /*Seletor de tag*/
@@ -56,30 +76,38 @@
   <h1 class="intro">PORTFÓLIO WEB</h1>
   <h2 class="intro2">JÚLIA MARQUES DE OLIVEIRA FONSÊCA</h2>
   <h3>Navegação pelo Portfólio:</h3>
-  <ol>
+  <ol class="background-grey">
     <li><a href="#Descrição">Descrição do Perfil;</a> </li>
     <li><a href="#Foto">Foto do Perfil;</a></li>
     <li><a href="#Habilidades">Habilidades;</a> </li>
+    <li><a href="#Curiosidades">Curiosidades;</a></li>
     <li><a href="#Rede">Rede Social.</a> </li>
   </ol>
   <img class="picture" id="Foto" src="eu.jpg" alt="Foto de Júlia Marques" width="270px"><br>
   <h4>Hello World!</h4>
   <p id="Descrição">Me chamo Júlia Marques, tenho 23 anos (farei 24 anos em
     novembro). Sou da cidade
-    de Recife, pernambucana. <em>Orgulho do meu "país" pernambuco.</em> </p>
+    de Recife, pernambucana. <em>Orgulho do meu "país" pernambuco.</em> Sou nova nesse mundo de desenvolvimento, e estou super empolgada com o curso.</p> 
   <h3 id="Habilidades">Habilidades:</h3>
-  <ul>
+  <ul class="background-yellow">
     <li>Apesar de não ter concluído a faculdade de Arquitetura e Urbanismo, tenho experiência em elaboração de um
       projeto arquitetônico;</li>
-    <li>Tenho facilid-ade de trabalhar em equipe;</li>
+    <li>Tenho facilidade de trabalhar em equipe;</li>
     <li>Me adapto fácil;</li>
     <li>Tenho capacidade de trabalhar em ambiente virtual.</li>
   </ul>
-  <h3 id="Rede">Rede Social:</h3>
-  <ul>
-    <li><a href="https://www.linkedin.com/in/fonseca-julia/" target="_blank">LinkedIn</a></li>
-    <li><a href="https://www.instagram.com/julia_marqss/">Instagram</a></li>
+  <h3 id="Curiosidades">Curiosidades:</h3>
+  <ul class="background-yellow">
+    <li>Não tem um dia que eu fique sem escutar música. Últimamente, estou escutando muito <a href="https://www.youtube.com/watch?v=9Ko-nEYJ1GE" target="_blank">Doja Cat;</a></li>
+    <li>Adoro andar de bicicleta;</li>
+    <li>Curto uns jogos online com os amigos. <em>Meu pai que me apresentou esse mundo desde pequena;</em></li>
+    <li>Tenho fotos de formatura do curso de Arquitetura, mas nunca me formei;</li>
+    <li>Gosto de fazer esporte, mas não sou boa.</li>
   </ul>
-</body>
+  <h3 id="Rede">Redes Sociais:</h3>
+  <a href="https://www.instagram.com/julia_marqss/" target="_blank"><img src="/images/instagram.png" alt="Instagram" width="35px"></a>
+  <a href="https://www.linkedin.com/in/fonseca-julia/" target="_blank"><img src="/images/linkedin.png" alt="LinkedIn" width="35px"></a>
+  <a href="https://github.com/juliamarqss" target="_blank"><img src="/images/github.png" alt="GitHub" width="35px"></a>
+  </body>
 
 </html>
