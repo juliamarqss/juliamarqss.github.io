@@ -11,34 +11,69 @@ h3 {
   font-family: Shrikhand;
   font-weight: 500;
   font-size: 20px;
+  text-align: center;
+}
+.menu{
+  text-align: center;
+  font-size: 18px ;
+}
+#Descrição {
+  margin-top: 10px;
 }
 .picture {
   border-radius: 30% 8% 30% 8%;
 }
 .intro {
-  color: #278eb0;
+  color: #ffffff;
   font-family: Shrikhand;
+  text-align: center;
 }
-.intro2 {
-  color: #fff994;
-  font-family: Shrikhand;
+.footer{
+  text-align: center;
 }
-.bg-yellow {
+
+.bg-yellow1 {
   background-color: #fff38f;
   border-radius: 30px;
-  text-decoration: none; /*Não está saindo a linha do link*/
+  margin-left: 380px;
+  margin-right: 30px;
 }
-.bg-white{
+.bg-yellow2 {
+  background-color: #fff38f;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.bg-white1{
   background-color: #ffffffd5;
   border-radius: 10px;
   padding: 5px 25px;
+  margin-left: 380px;
+  margin-right: 30px;
+}
+.bg-white2{
+  background-color: #ffffffd5;
+  border-radius: 10px;
+  padding: 5px 25px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .bg-fundo{
   background-image: url("/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   }
+}
+.rede-white{
+  color: #ffffff;
+}
+#Foto {
+  position:relative;
+  float: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 
 /*Exemplos da aula abaixo*/
 /*Seletor de tag*/
